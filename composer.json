@@ -1,0 +1,19 @@
+{
+    "name": "4lkaid/sparrow",
+    "type": "library",
+    "keywords": ["mysql", "pdo", "pdo_mysql"],
+    "homepage": "https://github.com/4lkaid/sparrow",
+    "license": "MIT",
+    "authors": [
+        {"name": "4lkaid", "email": "4lkaid@gmail.com"}
+    ],
+    "description": "PDO_MySQL Singleton",
+    "require": {
+        "php": ">=7.1",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    },
+    "autoload": {
+        "psr-4": {"sparrow\\": "./src"}
+    }
+}
